@@ -1,34 +1,33 @@
 import React from "react";
+import Details from "../components/teamDetails";
+import Card from "./card";
 
 const team = () => {
   return (
-    <div className=" bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
-      <div className="max-w-[1180px] mx-auto ">
-        <h1 className="pt-8 text-center text-3xl text-white font-bold">
-          Clud Members
-        </h1>
-        <div className=" mt-10 mx-auto grid grid-rows-2 grid-flow-col gap-9">
-          <div className="bg-slate-200  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border-0 border-gray-100 rounded-xl h-72 w-72">
-            {/* <h1>hhh</h1> */}
-          </div>
-          <div className="bg-slate-200  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border-0 border-gray-100 rounded-xl h-72 w-72">
-            {/* <h1>hhh</h1> */}
-          </div>
-          <div className="bg-slate-200  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border-0 border-gray-100 rounded-xl h-72 w-72">
-            {/* <h1>hhh</h1> */}
-          </div>
-          <div className="bg-slate-200  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border-0 border-gray-100 rounded-xl h-72 w-72">
-            {/* <h1>hhh</h1> */}
-          </div>
-          <div className="bg-slate-200  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border-0 border-gray-100 rounded-xl h-72 w-72">
-            {/* <h1>hhh</h1> */}
-          </div>
-          <div className="bg-slate-200  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border-0 border-gray-100 rounded-xl h-72 w-72">
-            {/* <h1>hhh</h1> */}
+    <>
+      <div className=" bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
+        <div className="max-w-[1180px] mx-auto ">
+          <h1 className="pt-8 text-center text-3xl text-white font-bold font-Roboto">
+            Club Members
+          </h1>
+          <div className=" mt-10 mx-auto grid grid-rows-2 grid-flow-col gap-9 pb-10">
+            {Details.map((card) => {
+              return (
+                <Card
+                branch={card.branch}
+                  key={card.id}
+                  name={card.name}
+                  img={card.img}
+                  linkdin={card.linkdin}
+                  instagram={card.instagram}
+                  github={card.github}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
