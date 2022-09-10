@@ -2,8 +2,8 @@ import styled, { keyframes } from "styled-components";
 
 const StaticBlobs: React.FC = () => {
   return (
-    <div>
-      <Blob className="hidden lg:block w-1/2 mt-40" />
+    <div className="">
+      <Blob className="hidden lg:block  mt-40" />
     </div>
   );
 };
