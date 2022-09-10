@@ -4,6 +4,7 @@ import HomePage from "../components/HomePage";
 import About from "../components/About";
 import Team from "../components/team";
 import Footer from "../components/footer"
+import Questions from "../components/questions";
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
 
      <HomePage />
      <About />
+     <Questions />
      <Team />
      <Footer />
     </div>
