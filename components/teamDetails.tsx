@@ -19,9 +19,9 @@ const deatils = [
     },
     {
         "id":"3",
-        "name":"Niharika Shakya",
+        "name":"Skarma Yangskit",
         "branch":"CSIT 3rd Year",
-        "img":"NiharikaShakya.jpg",
+        "img":"skarma1.jpg",
         "linkdin":"",
         "github":"https://github.com/Niharika-shakya",
         "instagram":""
