@@ -12,7 +12,7 @@ const EventCard = (props: { key: any; eventName: any; img: any,url:any }) => {
         {props.eventName}
       </h1>
       <div className="flex justify-center">
-      <a href={props.url} className="p-2 cursor-pointer font-Roboto transition ease-in-out delay-150 bg-blue-800 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 mt-4  h-10 w-32 rounded-xl text-white font-bold text-xl bg-sky-500/100">
+      <a href={props.url} className="p-2 cursor-pointer font-Roboto transition ease-in-out delay-150 bg-blue-800 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 mt-4  h-10 w-36 rounded-xl text-white font-bold text-xl bg-sky-500/100">
         View Event
       </a>
       </div>
