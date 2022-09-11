@@ -16,6 +16,7 @@ const Event = () => {
                 key={card.id}
                 eventName={card.eventName}
                 img={card.img}
+                url={card.url}
               />
             );
           })}
