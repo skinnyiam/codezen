@@ -1,6 +1,7 @@
 import Blob from "../components/blob";
 import Link from "next/link";
 
+
 const HomePage = () => {
   return (
     <div className=" mx-auto md:h-screen h-auto  flex bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 md:pb-0 pb-10">

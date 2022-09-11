@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import {  useState } from "react";
 import {
   Accordion,
   AccordionHeader,
@@ -46,7 +46,7 @@ export default function Example() {
           in Codezen
         </AccordionBody>
       </Accordion>
-      <Accordion className="" open={open === 1} icon={<Icon id={1} open={open} />}>
+      <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
         <AccordionHeader className="font-Roboto text-center text-xl font-bold text-white" onClick={() => handleOpen(1)}>
           How codezen will help me ?
         </AccordionHeader>

@@ -5,7 +5,7 @@ import About from "../components/About";
 import Team from "../components/team";
 import Footer from "../components/footer"
 import Questions from "../components/questions";
-
+import Event from "../components/event"
 const Home: NextPage = () => {
   return (
     <div className="">
@@ -17,6 +17,7 @@ const Home: NextPage = () => {
 
      <HomePage />
      <About />
+     <Event />
      <Questions />
      <Team />
      <Footer />
