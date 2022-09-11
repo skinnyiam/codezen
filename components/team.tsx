@@ -10,7 +10,7 @@ const team = () => {
           <h1 className="pt-8 text-center text-3xl text-white font-bold font-Roboto">
             Club Members
           </h1>
-          <div className=" mt-10 mx-auto grid grid-rows-2 grid-flow-col gap-9 pb-14">
+          <div className=" mt-10 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-9 pb-14">
             {Details.map((card) => {
               return (
                 <Card
