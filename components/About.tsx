@@ -4,8 +4,9 @@ import Link from "next/link";
 const About = () => {
   return (
     <div className="h-auto bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
-      <div className="h-96 w-1/2 mx-auto bg-slate-200  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border-0 border-gray-100 rounded-xl p-4">
-        <h1 className="text-white font-Roboto font-bold text-2xl text-center">{"$"} About the Codezen</h1>
+      <div className="mx-4 md:mx-0">
+      <div className=" md:w-1/2 w-auto mx-auto bg-slate-200  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border-0 border-gray-100 rounded-xl md:p-4 p-0">
+        <h1 className="text-white font-Roboto font-bold p-2 md:p-0 text-2xl text-center">{"$"} About the Codezen</h1>
         <h1 className="p-8 font-Roboto text-white">
           Codezen is a club formed under the <span className="underline underline-offset-2 text-green-300"><Link href="https://captivators.vercel.app/">CAPTIVATORS </Link></span>
             club which is made by some coding enthusiast student from deparment of CSIT,Mahatma Jyotiba Phule Rohilkhand University.
@@ -17,8 +18,9 @@ const About = () => {
         </h1>
         <h1 className="p-8 font-Roboto text-white">
           You just have to fill the <span className="underline underline-offset-2 text-green-300"> <Link href="https://rosekamallove.vercel.app/">google form </Link></span>
-          to join the club and we will contact you for further activity's which will be held under Codezen
+          to join the club and we will contact you for further activity which will be held under Codezen
         </h1>
+      </div>
       </div>
 
     </div>

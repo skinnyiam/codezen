@@ -31,13 +31,23 @@ export default function Example() {
  
   return (
     <div className="bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 pt-16 pb-10">
-      <div className="pb-10">
-        <h1 className="font-Roboto text-2xl text-center text-white"><span className="font-Roboto text-2xl text-gray-400">npm start </span>Frequently-asked-question's</h1>
+      <div className="pb-10 mx-4 md:mx-0">
+        <h1 className="font-Roboto text-2xl text-center text-white"><span className="font-Roboto text-2xl text-gray-400">npm start </span>Frequently-asked-questions</h1>
       </div>
-    <div className="max-w-[1180px] mx-auto flex p-4">
-
+    <div className="max-w-[1180px] mx-auto flex flex-col md:flex-row-reverse p-4">
+    <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
+        <AccordionHeader className="font-Roboto text-center text-xl font-bold text-white" onClick={() => handleOpen(3)}>
+          How much time should i have to devote 
+          in club ?
+        </AccordionHeader>
+        <AccordionBody className="font-Roboto text-sm  text-white">
+          Here we are gather to learn and grow so it 
+          depends on you how much you want to learn and spend time
+          in Codezen
+        </AccordionBody>
+      </Accordion>
       <Accordion className="" open={open === 1} icon={<Icon id={1} open={open} />}>
-        <AccordionHeader className="font-Roboto text-xl font-bold text-white" onClick={() => handleOpen(1)}>
+        <AccordionHeader className="font-Roboto text-center text-xl font-bold text-white" onClick={() => handleOpen(1)}>
           How codezen will help me ?
         </AccordionHeader>
         <AccordionBody className="font-Roboto text-sm  text-white">
@@ -57,17 +67,7 @@ export default function Example() {
           So if you dont know C about coding you still can join us.
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
-        <AccordionHeader className="font-Roboto text-xl font-bold text-white" onClick={() => handleOpen(3)}>
-          How much time should i have to devote 
-          in club ?
-        </AccordionHeader>
-        <AccordionBody className="font-Roboto text-sm  text-white">
-          Here we are gather to learn and grow so it 
-          depends on you how much you want to learn and spend time
-          in Codezen
-        </AccordionBody>
-      </Accordion>
+    
     </div>
     </div>
    

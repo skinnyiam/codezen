@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="h-56 bg-gray-900 border-t-2 border-gray-600">
-      <div className=" flex mt-2 ml-8">
+    <div className=" bg-gray-900 border-t-2 border-gray-600">
+      <div className=" flex flex-col md:flex-row-reverse mt-2 ml-8">
         
-        <div className="w-1/3 h-44">
-          <h1 className="font-Roboto text-gray-200 text-sm hover:underline hover:underline-offset-4 mb-4">
+        <div className="md:w-1/3 w-auto h-auto mb-4">
+          <h1 className="font-Roboto text-gray-200 text-sm underline underline-offset-4 mb-0 md:mb-4">
             ACTIVITY
           </h1>
           <p className="font-Roboto text-gray-200 text-sm">
@@ -23,8 +23,8 @@ const Footer = () => {
           </p>
           
         </div>
-        <div className="w-1/3 h-44">
-          <h1 className="font-Roboto text-gray-200 text-sm hover:underline hover:underline-offset-4 mb-4">
+        <div className="md:w-1/3 w-auto h-auto mb-4">
+          <h1 className="font-Roboto text-gray-200 text-sm underline underline-offset-4 mb-0 md:mb-4">
             CONTACT US
           </h1>
           <p className="font-Roboto text-gray-200 text-sm">
@@ -44,8 +44,8 @@ const Footer = () => {
             Bareilly, Uttar Pradesh Pincode:-243006
           </p>
         </div>
-        <div className="w-1/3 h-44 ">
-          <h1 className="font-Roboto text-start text-gray-200 text-sm hover:underline hover:underline-offset-4 mb-4">
+        <div className="md:w-1/3 w-auto h-auto mb-4 ">
+          <h1 className="font-Roboto text-start text-gray-200 text-sm underline underline-offset-4 mb-0 md:mb-4">
             LINKS
           </h1>
           <p className="font-Roboto text-gray-200 text-sm">
