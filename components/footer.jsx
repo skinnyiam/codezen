@@ -11,47 +11,48 @@ const Footer = () => {
           <h1 className="font-Roboto text-gray-200 text-sm underline underline-offset-4 mb-0 md:mb-4">
             ACTIVITY
           </h1>
-          <p className="font-Roboto text-gray-200 text-sm">
+          <ul>
+          <li className="font-Roboto list-disc text-gray-200 text-sm">
            Codezen conduct Regular Hackathon
-          </p>
-          <p className="font-Roboto text-gray-200 text-sm">Coding Contest in College</p>
-          <p className="font-Roboto text-gray-200 text-sm">
+          </li>
+          <li className="font-Roboto list-disc text-gray-200 text-sm">Coding Contest in College</li>
+          <li className="font-Roboto list-disc text-gray-200 text-sm">
            Exploring various tech in Development 
-          </p>
-          <p className="font-Roboto text-gray-200 text-sm">
+          </li>
+          <li className="font-Roboto list-disc text-gray-200 text-sm">
            Team meetups to enhance leadership
-          </p>
-          
+          </li>
+          </ul>
         </div>
         <div className="md:w-1/3 w-auto h-auto mb-4">
           <h1 className="font-Roboto text-gray-200 text-sm underline underline-offset-4 mb-0 md:mb-4">
             CONTACT US
           </h1>
-          <p className="font-Roboto text-gray-200 text-sm">
+          <li className="font-Roboto text-gray-200 text-sm">
             club.csitmjpru@gmail.com
-          </p>
-          <p className="font-Roboto text-gray-200 text-sm">+91-8534833926</p>
-          <p className="font-Roboto text-gray-200 text-sm">
+          </li>
+          <li className="font-Roboto text-gray-200 text-sm">+91-8534833926</li>
+          <li className="font-Roboto text-gray-200 text-sm">
             Harshit Kumar Singh (Student Incharge)
-          </p>
-          <p className="font-Roboto text-gray-200 text-sm">
+          </li>
+          <li className="font-Roboto text-gray-200 text-sm">
             Department Of CSIT,
-          </p>
-          <p className="font-Roboto text-gray-200 text-sm">
+          </li>
+          <li className="font-Roboto text-gray-200 text-sm">
             Mahatma Jyotiba Phule Rohilkhand University,
-          </p>
-          <p className="font-Roboto text-gray-200 text-sm">
+          </li>
+          <li className="font-Roboto text-gray-200 text-sm">
             Bareilly, Uttar Pradesh Pincode:-243006
-          </p>
+          </li>
         </div>
         <div className="md:w-1/3 w-auto h-auto mb-4 ">
           <h1 className="font-Roboto text-start text-gray-200 text-sm underline underline-offset-4 mb-0 md:mb-4">
             LINKS
           </h1>
-          <p className="font-Roboto text-gray-200 text-sm">
+          <li className="font-Roboto text-gray-200 text-sm">
            Official Website of <span className="underline underline-offset-2 text-green-300"><Link href="https://mjpru.ac.in/">College</Link></span>
-          </p>
-          <p className="font-Roboto text-gray-200 text-sm"><span className="underline underline-offset-2 text-green-300"><Link href="https://captivators.vercel.app/">CAPTIVATORS</Link></span> website</p>
+          </li>
+          <li className="font-Roboto text-gray-200 text-sm"><span className="underline underline-offset-2 text-green-300"><Link href="https://captivators.vercel.app/">CAPTIVATORS</Link></span> website</li>
           <div className="flex justify-evenly mt-4  w-32">
           <a className=" text-gray-200 text-2xl">
           <FaFacebook />
